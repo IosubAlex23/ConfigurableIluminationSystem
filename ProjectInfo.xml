@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<export>
+    <PROCESSOR>
+        <DeviceID>SKEAZ128M4</DeviceID>
+        <CoreNum>1</CoreNum>
+        <Cores>
+            <Core>
+                <CoreSet>cortex-m0plus</CoreSet>
+            </Core>
+        </Cores>
+        <SRAMsize>0K</SRAMsize>
+        <FLASHsize>0K</FLASHsize>
+    </PROCESSOR>
+    <PATHS>
+        <LinkerCommandFile>C:\Users\Alex\Desktop\Preh\Proiect\PrehProject\Project_Settings\Linker_Files\SKEAZ_flash.ld</LinkerCommandFile>
+        <ProjectInfoPath>C:\Users\Alex\Desktop\Preh\Proiect\PrehProject\ProjectInfo.xml</ProjectInfoPath>
+        <IncludePaths>
+            <Path>C:\Users\Alex\Desktop\Preh\Proiect\PrehProject/include</Path>
+            <Path>C:\Program Files\NXP\S32 Design Studio\eclipse\../S32DS/arm_ewl2/EWL_C/include</Path>
+            <Path>C:\Program Files\NXP\S32 Design Studio\eclipse\../S32DS/arm_ewl2/EWL_C/include/arm</Path>
+            <Path>C:\Program Files\NXP\S32 Design Studio\eclipse\../S32DS/arm_ewl2/EWL_Runtime/include</Path>
+            <Path>C:\Program Files\NXP\S32 Design Studio\eclipse\../S32DS/arm_ewl2/EWL_Runtime/include/arm</Path>
+        </IncludePaths>
+        <SourceCodePaths>
+            <Path>include</Path>
+            <Path>src</Path>
+            <Path>Project_Settings</Path>
+        </SourceCodePaths>
+        <LibPaths/>
+    </PATHS>
+    <FILES>
+        <GeneratedCs>
+            <PathName>C:\Users\Alex\Desktop\Preh\Proiect\PrehProject\Project_Settings\Startup_Code\system_SKEAZ1284.c</PathName>
+            <PathName>C:\Users\Alex\Desktop\Preh\Proiect\PrehProject\src\Application.c</PathName>
+            <PathName>C:\Users\Alex\Desktop\Preh\Proiect\PrehProject\src\DDrvButton.c</PathName>
+            <PathName>C:\Users\Alex\Desktop\Preh\Proiect\PrehProject\src\DDrvJoystick.c</PathName>
+            <PathName>C:\Users\Alex\Desktop\Preh\Proiect\PrehProject\src\DDrvLeds.c</PathName>
+            <PathName>C:\Users\Alex\Desktop\Preh\Proiect\PrehProject\src\GPIO_module.c</PathName>
+            <PathName>C:\Users\Alex\Desktop\Preh\Proiect\PrehProject\src\LCD_Driver.c</PathName>
+            <PathName>C:\Users\Alex\Desktop\Preh\Proiect\PrehProject\src\LDrvAdc.c</PathName>
+            <PathName>C:\Users\Alex\Desktop\Preh\Proiect\PrehProject\src\UART.c</PathName>
+            <PathName>C:\Users\Alex\Desktop\Preh\Proiect\PrehProject\src\clocks.c</PathName>
+            <PathName>C:\Users\Alex\Desktop\Preh\Proiect\PrehProject\src\delay.c</PathName>
+            <PathName>C:\Users\Alex\Desktop\Preh\Proiect\PrehProject\src\main.c</PathName>
+            <PathName>C:\Users\Alex\Desktop\Preh\Proiect\PrehProject\src\pwm.c</PathName>
+        </GeneratedCs>
+        <GeneratedHs>
+            <PathName>C:\Users\Alex\Desktop\Preh\Proiect\PrehProject\include\SKEAZ1284.h</PathName>
+            <PathName>C:\Users\Alex\Desktop\Preh\Proiect\PrehProject\include\core_cm0plus.h</PathName>
+            <PathName>C:\Users\Alex\Desktop\Preh\Proiect\PrehProject\include\core_cmFunc.h</PathName>
+            <PathName>C:\Users\Alex\Desktop\Preh\Proiect\PrehProject\include\core_cmInstr.h</PathName>
+            <PathName>C:\Users\Alex\Desktop\Preh\Proiect\PrehProject\include\derivative.h</PathName>
+            <PathName>C:\Users\Alex\Desktop\Preh\Proiect\PrehProject\include\system_SKEAZ1284.h</PathName>
+            <PathName>C:\Users\Alex\Desktop\Preh\Proiect\PrehProject\src\Application.h</PathName>
+            <PathName>C:\Users\Alex\Desktop\Preh\Proiect\PrehProject\src\DDrvButton.h</PathName>
+            <PathName>C:\Users\Alex\Desktop\Preh\Proiect\PrehProject\src\DDrvJoystick.h</PathName>
+            <PathName>C:\Users\Alex\Desktop\Preh\Proiect\PrehProject\src\DDrvLeds.h</PathName>
+            <PathName>C:\Users\Alex\Desktop\Preh\Proiect\PrehProject\src\GPIO_module.h</PathName>
+            <PathName>C:\Users\Alex\Desktop\Preh\Proiect\PrehProject\src\LCD_Driver.h</PathName>
+            <PathName>C:\Users\Alex\Desktop\Preh\Proiect\PrehProject\src\LDrvAdc.h</PathName>
+            <PathName>C:\Users\Alex\Desktop\Preh\Proiect\PrehProject\src\UART.h</PathName>
+            <PathName>C:\Users\Alex\Desktop\Preh\Proiect\PrehProject\src\clocks.h</PathName>
+            <PathName>C:\Users\Alex\Desktop\Preh\Proiect\PrehProject\src\delay.h</PathName>
+            <PathName>C:\Users\Alex\Desktop\Preh\Proiect\PrehProject\src\pwm.h</PathName>
+            <PathName>C:\Users\Alex\Desktop\Preh\Proiect\PrehProject\src\types.h</PathName>
+        </GeneratedHs>
+        <GeneratedASMs>
+            <PathName>C:\Users\Alex\Desktop\Preh\Proiect\PrehProject\Project_Settings\Startup_Code\startup_SKEAZ1284.S</PathName>
+        </GeneratedASMs>
+        <Libraries/>
+    </FILES>
+    <OPTIONS>
+        <BuildOptions>
+            <ASMoptList>
+                <Option>-I"C:\Users\Alex\Desktop\Preh\Proiect\PrehProject\include" -I"C:\Program Files\NXP\S32 Design Studio\eclipse\..\S32DS\arm_ewl2\EWL_C\include" -I"C:\Program Files\NXP\S32 Design Studio\eclipse\..\S32DS\arm_ewl2\EWL_C\include\arm" -I"C:\Program Files\NXP\S32 Design Studio\eclipse\..\S32DS\arm_ewl2\EWL_Runtime\include" -I"C:\Program Files\NXP\S32 Design Studio\eclipse\..\S32DS\arm_ewl2\EWL_Runtime\include\arm" -x assembler-with-cpp -D__START=__thumb_startup -O0 -g3 -mcpu=cortex-m0plus -mthumb -specs=ewl_c9x_noio.specs --sysroot="C:\Program Files\NXP\S32 Design Studio\eclipse\..\S32DS\arm_ewl2"</Option>
+            </ASMoptList>
+            <CCoptList>
+                <Option>-I"C:\Users\Alex\Desktop\Preh\Proiect\PrehProject\include" -I"C:\Program Files\NXP\S32 Design Studio\eclipse\..\S32DS\arm_ewl2\EWL_C\include" -I"C:\Program Files\NXP\S32 Design Studio\eclipse\..\S32DS\arm_ewl2\EWL_C\include\arm" -I"C:\Program Files\NXP\S32 Design Studio\eclipse\..\S32DS\arm_ewl2\EWL_Runtime\include" -I"C:\Program Files\NXP\S32 Design Studio\eclipse\..\S32DS\arm_ewl2\EWL_Runtime\include\arm" -O0 -g3 -Wall -c -fmessage-length=0 -ffunction-sections -fdata-sections -mcpu=cortex-m0plus -mthumb -specs=ewl_c9x_noio.specs --sysroot="C:\Program Files\NXP\S32 Design Studio\eclipse\..\S32DS\arm_ewl2"</Option>
+            </CCoptList>
+            <LinkerOptList>
+                <Option>-T "C:\Users\Alex\Desktop\Preh\Proiect\PrehProject\Project_Settings\Linker_Files\SKEAZ_flash.ld" -Wl,-Map,"PrehProject.map" -Xlinker --gc-sections -mcpu=cortex-m0plus -mthumb -specs=ewl_c9x_noio.specs --sysroot="C:\Program Files\NXP\S32 Design Studio\eclipse\..\S32DS\arm_ewl2"</Option>
+            </LinkerOptList>
+        </BuildOptions>
+    </OPTIONS>
+</export>
